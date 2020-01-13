@@ -1,8 +1,7 @@
 {
-  "name": "react-hot-keys",
-  "version": "2.4.5",
+  "name": "@seesaw/react-hot-keys",
+  "version": "2.4.6",
   "description": "React component to listen to keydown and keyup keyboard events, defining and  dispatching keyboard shortcuts.",
-  "author": "kenny wang <wowohoo@qq.com>",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "typings": "lib/cjs/index.d.ts",
@@ -23,29 +22,11 @@
     "doc": "ENTRYDIR=website kkt build",
     "doc:dev": "ENTRYDIR=website kkt start"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jaywcjlove/react-hotkeys"
-  },
   "files": [
     "dist",
     "src",
     "lib"
   ],
-  "keywords": [
-    "react-hot-keys",
-    "react-hotkey",
-    "hotkey",
-    "hotkeys",
-    "hotkeys-js",
-    "hotkeysjs",
-    "key",
-    "keys",
-    "keyboard",
-    "shortcuts",
-    "keypress"
-  ],
-  "license": "MIT",
   "jest": {
     "testMatch": [
       "<rootDir>/**/__tests__/**/*.{ts,tsx}",
@@ -75,7 +56,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
-    "hotkeys-js": "^3.7.3",
+    "@seesaw/hotkeys-js": "^3.7.4",
     "prop-types": "^15.7.2"
   },
   "browserslist": {

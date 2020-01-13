@@ -1,5 +1,5 @@
 import React from 'react';
-import { HotkeysEvent } from 'hotkeys-js';
+import { HotkeysEvent } from '@seesaw/hotkeys-js';
 import { Github } from '@uiw/react-shields';
 import GitHubCorners from '@uiw/react-github-corners';
 import Hotkeys from '../';

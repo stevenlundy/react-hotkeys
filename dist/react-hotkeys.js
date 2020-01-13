@@ -1263,12 +1263,12 @@ var external_root_React_commonjs2_react_commonjs_react_amd_react_default = /*#__
 // EXTERNAL MODULE: ./node_modules/prop-types/index.js
 var prop_types = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/hotkeys-js/dist/hotkeys.esm.js
+// CONCATENATED MODULE: ./node_modules/@seesaw/hotkeys-js/dist/hotkeys.esm.js
 /*!
  * hotkeys-js v3.7.3
  * A simple micro-library for defining and dispatching keyboard shortcuts. It has no dependencies.
  * 
- * Copyright (c) 2019 kenny wong <wowohoo@qq.com>
+ * Copyright (c) 2020 kenny wong <wowohoo@qq.com>
  * http://jaywcjlove.github.io/hotkeys
  * 
  * Licensed under the MIT license.
@@ -1618,6 +1618,7 @@ function dispatch(event) {
   // Webkit左右 command 键值不一样
 
   if (key === 93 || key === 224) key = 91;
+  _downKeys = [];
   /**
    * Collect bound keys
    * If an Input Method Editor is processing key input and the event is keydown, return 229.
